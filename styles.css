@@ -1,0 +1,27 @@
+.mainDiv {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.inputDiv {
+    position: absolute;
+    top: 20%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.timeDiv {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%);
+    color: white;
+    display: flex;
+}
+
+.timeDiv > * {
+    padding: 10%;
+    font-size: 300%
+}
